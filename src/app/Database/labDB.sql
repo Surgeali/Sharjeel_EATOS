@@ -19,4 +19,4 @@ CREATE TABLE answers (
 );
 
 INSERT INTO questions (question)
-VALUES ("what color is the sky?","who is the President","","","")
+VALUES ("what color is the sky?","who is the President","How many states are there in the U.S.A?","Are we in a pandemic?","Should you wear mask?")
