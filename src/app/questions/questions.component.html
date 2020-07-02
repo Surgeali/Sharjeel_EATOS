@@ -1,3 +1,28 @@
-<app-navbar></app-navbar>
-
-<p>questions works!</p>
+<form action="#">
+<p class="card-panel #ec407a pink lighten-1 white-text">What is the question?</p>
+    <p>
+      <label>
+        <input class="with-gap" name="group1" type="radio"  />
+        <span>Option 1</span>
+      </label>
+    </p>
+    <p>
+        <label>
+          <input class="with-gap" name="group1" type="radio"  />
+          <span>Option 2</span>
+        </label>
+      </p>
+      <p>
+        <label>
+          <input class="with-gap" name="group1" type="radio"  />
+          <span>Option 3</span>
+        </label>
+      </p>
+      <p>
+        <label>
+          <input class="with-gap" name="group1" type="radio"  />
+          <span>Option 4</span>
+        </label>
+      </p>
+      <button [routerLink]= "'/results'" class="btn-large btn-submit" type="submit">Submit</button>
+  </form>
